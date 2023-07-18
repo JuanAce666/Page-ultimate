@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psycho World</title>
+    <link rel="icon" href="/img/Circle-A_red.svg.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="/css/estilo.css">
+
+
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <header>
+            <div class="contenido-header">
+                <div class="logo">
+                    <h1>Psycho World</h1>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#inicio" onclick="seleccionar()">
+                                <i class="fa-solid fa-house"></i>
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/merch.html" onclick="seleccionar()">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                <span>Futuro</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/galeria.html" onclick="seleccionar()">
+                                <i class="fa-solid fa-image"></i>
+                                <span>Galeria</span>
+                            </a></li>
+                        <li>
+                            <a href="/html/sb.html" onclick="seleccionar()">
+                                <i class="fa-solid fa-users-line"></i>
+                                <span>Sobre nosotros</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/playlist.html" onclick="seleccionar()">
+                                <i class="fa-brands fa-spotify"></i>
+                                <span>Playlist</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <a href="tel:+6666-666-6666">
+                        <i class="fa-solid fa-phone"></i>+6666-666-6666
+                    </a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a> 
+                </div>
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <!-- Carrusel -->
+        <div class="carrusel">
+            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround":true, "pageDots": false, "autoPlay": true}'>
+                <div class="gallery-cell" >
+                    <img src="https://w.forfun.com/fetch/e8/e84ce29fa1f567db78891bf2937f013a.jpeg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="/img/fondo.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="https://images.paramount.tech/uri/mgid:arc:imageassetref:bet.com:308ec26d-4862-11eb-9b1b-0e40cf2fc285?quality=0.7&gen=ntrn&legacyStatusCode=true" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="https://img.buzzfeed.com/buzzfeed-static/complex/images/cjswt6lszt0lnyfyz3bd/die-lit-playboi-carti-hi-res-cover.jpg?output-format=jpg&output-quality=auto" alt="">
+                </div>
+            </div>
+            <div class="info">
+                <h2>Bienvenido a mi mundo! </h2>
+                <p>¡Bienvenidos a mi blog personal, donde fusiono el estilo streetwear con la nostálgica era Y2K! Aquí podrás sumergirte en un mundo lleno de moda vibrante y referencias retro que te transportarán directamente a la década de los 2000.</p>
+                <button></button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION 1 -->
+    <section id="sabores">
+        <h2>Stickers de sorteos!</h2>
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="https://png.pngtree.com/png-vector/20221227/ourmid/pngtree-cute-cartoon-childrens-fairy-y2k-magic-wand-fashion-trend-tattoo-png-image_6504371.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Varita Magica</h3>
+                    <p>Sticker de varita magia perfecta para poner en cualquier lugar.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="https://img1.picmix.com/output/stamp/normal/8/9/9/1/2121998_a4890.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Corazon cyber</h3>
+                    <p>Sticker de corazon cyber perfecta para poner en cualquier lugar.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="https://dejpknyizje2n.cloudfront.net/marketplace/products/heart-icon-with-wings-and-a-halo-y2k-sticker-36822-df592c.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>pretty heart</h3>
+                    <p>Sticker de un corazon tierno perfecta para poner en cualquier lugar.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="https://static.vecteezy.com/system/resources/previews/017/229/023/original/sticker-element-y2k-free-png.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Hongo psycho</h3>
+                    <p>Sticker de hongo psycho perfecta para poner en cualquier lugar.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="https://static.vecteezy.com/system/resources/previews/017/229/019/original/sticker-element-y2k-free-png.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>face derretida</h3>
+                    <p>Sticker de una face derretida perfecta para poner en cualquier lugar.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="https://images.vexels.com/media/users/3/329029/isolated/preview/cb8b2544c635f81278adac1716f16b5a-learn-to-let-go-monochromatic-quote.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>learn to let go</h3>
+                    <p>Sticker de un lema perfecta para poner en cualquier lugar.</p>
+                </div>
+            </div>
+        </div>
+
+        <button></button>
+
+    </section>
+
+    <!-- SECCION PLATOS -->
+    <section id="platos">
+        <h2>Diseños de tattoos!</h2>
+
+        <div class="fila">
+            <div class="item">
+                <img src="https://static.vecteezy.com/system/resources/previews/025/063/215/original/blue-butterfly-tattoo-y2k-chrome-ornament-png.png" alt="">
+                <p>tattoo de mariposa cromado</p>
+            </div>
+            <div class="item">
+                <img src="/img/p9rw7dzp78451.png" alt="">
+                <p>tattoo de dios de pun pun</p>
+            </div>
+            <div class="item">
+                <img src="/img/comic.png" alt="">
+                <p>tattoo en estilo comic</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="item">
+                <img src="/img/deamons 7.png" alt="">
+                <p>tattoo demon en blanco y negro</p>
+            </div>
+            <div class="item">
+                <img src="/img/deamons 4.png" alt="">
+                <p>tatto de demonio</p>
+            </div>
+            <div class="item">
+                <img src="/img/deamon 4.png" alt="">
+                <p>tattoo de demonio con espadas</p>
+            </div>
+        </div>
+
+        <button></button>
+
+    </section>
+
+    <!-- SECCION BLOG -->
+    <section id="blog">
+        <h2>Opiniones de los diseños</h2>
+        <div class="galeria-blog js-flickity" data-flickity-options='{ "wrapAround":true, "pageDots": true}'>
+            <div class="gallery-cell" >
+                <div class="item">
+                    <div class="foto">
+                        <img src="/img/orslok1.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Orslok-21</h3>
+                        <p>la verdad es que estan bien, me hizo todo lo que pedi hasta me lo tatue.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cell" >
+                <div class="item">
+                    <div class="foto">
+                        <img src="/img/esteban1.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>esteban-25</h3>
+                        <p>todo perfecto hace bonitos diseños y lucen bastante bien.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cell" >
+                <div class="item">
+                    <div class="foto">
+                        <img src="/img/lonely.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>lucifer-666</h3>
+                        <p>lucen bien, tiene cosas por mejorar pero la verdad es que los diseños que me hizo para mi marca de ropa estan muy geniales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button></button>
+    </section>
+
+    <!-- SECCION CONTACTO Y PIE DE PAGINA -->
+    <section id="contacto">
+        <div class="fila">
+            <div class="col">
+                <h1>Psycho World</h1>
+            </div>
+            <div class="col">
+                <h3>Menú</h3>
+                <a href="/html/index.html">Inicio</a>
+                <a href="/html/merch.html">Futuro!</a>
+                <a href="/html/galeria.html">Galeria</a>
+                <a href="/html/sb.html">Sobre nosotros</a>
+                <a href="/html/playlist.html">playlist</a>
+            </div>
+            <div class="col">
+                <h3>Designer</h3>
+                <a href="https://github.com/JuanAce666">Juan.F</a>
+            </div>
+            <div class="col">
+                <h3>Social Media</h3>
+                <div class="media">
+                    <i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a>
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-instagram"></i> <a href="#">Instagram</a>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Contacto</h3>
+                <input type="text" placeholder="Tu correo">
+                <input type="submit" class="enviar">
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>

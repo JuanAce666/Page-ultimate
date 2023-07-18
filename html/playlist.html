@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel="icon" href="/img/Circle-A_red.svg.png">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+<body>
+    <section id="inicio">
+        <header>
+            <div class="contenido-header">
+                <div class="logo">
+                    <h1>Psycho World</h1>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="/html/index.html" >
+                                <i class="fa-solid fa-house"></i>
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/merch.html" onclick="seleccionar()">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                <span>Futuro</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/galeria.html" onclick="seleccionar()">
+                                <i class="fa-solid fa-image"></i>
+                                <span>Galeria</span>
+                            </a></li>
+                        <li>
+                            <a href="/html/sb.html" onclick="seleccionar()">
+                                <i class="fa-solid fa-users-line"></i>
+                                <span>Sobre nosotros</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/playlist.html" onclick="seleccionar()">
+                                <i class="fa-brands fa-spotify"></i>
+                                <span>Playlist</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <a href="tel:+6666-666-6666">
+                        <i class="fa-solid fa-phone"></i>+6666-666-6666
+                    </a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a> 
+                </div>
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+        
+        <div class="container">
+                <h1>Nuestra playlist</h1>
+                <p>¡Bienvenidos a nuestra playlist en Spotify, el destino definitivo para los amantes de la moda, el streetwear y la música! Aquí encontrarás una combinación perfecta de canciones cuidadosamente seleccionadas que te sumergirán en un viaje sonoro mientras exploras tu estilo personal.</p>
+                <p>Nuestra playlist es un collage de melodías que capturan la esencia de la cultura urbana y la moda contemporánea. Desde clásicos del hip-hop y el R&B que han dejado huella en la industria hasta los sonidos frescos y vanguardistas de artistas emergentes, hemos creado un espacio musical que te inspirará y te hará vibrar.</p>
+                <h2>playlist de Spotify</h2>
+                <div class="spotify-embed">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6FF0HzMSGsiamzJGBE2eG1?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+        </div>
+  
+
+            <!-- SECCION CONTACTO Y PIE DE PAGINA -->
+    <section id="contacto">
+        <div class="fila">
+            <div class="col">
+                <h1>Psycho World</h1>
+            </div>
+            <div class="col">
+                <h3>Menú</h3>
+                <a href="/html/index.html">Inicio</a>
+                <a href="/html/merch.html">Futuro!</a>
+                <a href="/html/galeria.html">Galeria</a>
+                <a href="/html/sb.html">Sobre nosotros</a>
+                <a href="/html/playlist.html">playlist</a>
+            </div>
+            <div class="col">
+                <h3>Designer</h3>
+                <a href="https://github.com/JuanAce666">Juan.F</a>
+            </div>
+            <div class="col">
+                <h3>Social Media</h3>
+                <div class="media">
+                    <i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a>
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-instagram"></i> <a href="#">Instagram</a>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Contacto</h3>
+                <input type="text" placeholder="Tu correo">
+                <input type="submit" class="enviar">
+            </div>
+        </div>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script src="/js/sb.js"></script>
+</body>
+</html>

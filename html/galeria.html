@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de imagenes</title>
+    <link rel="icon" href="/img/Circle-A_red.svg.png">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+<body>
+    <section id="inicio">
+        <header>
+            <div class="contenido-header">
+                <div class="logo">
+                    <h1>Psycho World</h1>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="/html/index.html" >
+                                <i class="fa-solid fa-house"></i>
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/merch.html" onclick="seleccionar()">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                <span>Futuro</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/galeria.html" onclick="seleccionar()">
+                                <i class="fa-solid fa-image"></i>
+                                <span>Galeria</span>
+                            </a></li>
+                        <li>
+                            <a href="/html/sb.html" onclick="seleccionar()">
+                                <i class="fa-solid fa-users-line"></i>
+                                <span>Sobre nosotros</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/playlist.html" onclick="seleccionar()">
+                                <i class="fa-brands fa-spotify"></i>
+                                <span>Playlist</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <a href="tel:+6666-666-6666">
+                        <i class="fa-solid fa-phone"></i>+6666-666-6666
+                    </a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a> 
+                </div>
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+
+        <h1>¡Nuestra Galería de Imágenes!</h1>
+        <p>¡Bienvenidos a nuestra galería de imágenes, donde la moda y el arte se fusionan en una explosión de colores y creatividad! Aquí encontrarás una cuidadosa selección de fotografías y obras visuales que capturan la esencia del streetwear y la moda contemporánea.</p>
+        <div class="my-gallery">
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/564x/a7/a8/46/a7a846cb7f39fbc5d70e183c75189135.jpg" alt="Imagen 1">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>King lonely</h3>
+                        <p>destroy lonely</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/564x/41/07/78/410778736932495106155bf67b3d6cad.jpg" alt="Imagen 2">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>cyber</h3>
+                        <p>666</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/736x/7b/00/8a/7b008aca6d2c6b01f2d2018b9c81481a.jpg" alt="Imagen 3">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Playboy</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/736x/6a/1b/ed/6a1bed7e870d5ead08d1a0a5dc3d4be7.jpg" alt="Imagen 4">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Gengar</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/564x/0a/f0/c5/0af0c5b655b632cad5f6f144881886da.jpg" alt="Imagen 5">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Psycho</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/564x/54/3f/42/543f422098edfbf2581153fc53f403d3.jpg" alt="Imagen 6">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>King vamp</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/564x/15/7f/0b/157f0b6eb050d86a5a4f0b022408948f.jpg" alt="Imagen 7">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>clones1</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/564x/0b/e1/5a/0be15ac184aea518c2e24fc63e0bde4a.jpg" alt="Imagen 8">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>clones2</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/564x/a1/25/5c/a1255caab2500460918d0ee621ce898c.jpg" alt="Imagen 9">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>clones3</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/564x/85/43/e5/8543e5532cd6b2fa9336097aaee5a3b4.jpg" alt="Imagen 10">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>clones4</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/564x/45/6d/25/456d2549e589970e559abd5b7ecf4cd9.jpg" alt="Imagen 11">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>clones5</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/564x/6b/2d/6d/6b2d6d6a8765acfa48c478068c004d1c.jpg" alt="Imagen 12">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>clones6</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-gallery-item">
+                <img src="https://i.pinimg.com/564x/fd/5f/2c/fd5f2c4d3cd77fbbc955cd1c393eab74.jpg" alt="Imagen 13">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>clones7</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- SECCION CONTACTO Y PIE DE PAGINA -->
+        <section id="contacto">
+            <div class="fila">
+                <div class="col">
+                    <h1>Psycho World</h1>
+                </div>
+                <div class="col">
+                    <h3>Menú</h3>
+                    <a href="/html/index.html">Inicio</a>
+                    <a href="/html/merch.html">Futuro!</a>
+                    <a href="/html/galeria.html">Galeria</a>
+                    <a href="/html/sb.html">Sobre nosotros</a>
+                    <a href="/html/playlist.html">playlist</a>
+                </div>
+                <div class="col">
+                    <h3>Designer</h3>
+                    <a href="https://github.com/JuanAce666">Juan.F</a>
+                </div>
+                <div class="col">
+                    <h3>Social Media</h3>
+                    <div class="media">
+                        <i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a>
+                    </div>
+                    <div class="media">
+                        <i class="fa-brands fa-instagram"></i> <a href="#">Instagram</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Contacto</h3>
+                    <input type="text" placeholder="Tu correo">
+                    <input type="submit" class="enviar">
+                </div>
+            </div>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script src="/js/sb.js"></script>
+</body>
+</html>
